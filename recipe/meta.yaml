@@ -1,5 +1,5 @@
 {% set name = "nionui-tool" %}
-{% set version = "0.3.21a8" %}
+{% set version = "0.3.21" %}
 
 package:
   name: {{ name|lower }}
