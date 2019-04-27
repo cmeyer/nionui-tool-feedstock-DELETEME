@@ -16,6 +16,13 @@ Current build status
 
 
 <table><tr>
+    <td>Travis</td>
+    <td>
+      <a href="https://travis-ci.org/nion-software/nionui-tool-feedstock">
+        <img alt="macOS" src="https://img.shields.io/travis/nion-software/nionui-tool-feedstock/master.svg?label=macOS">
+      </a>
+    </td>
+  </tr><tr>
     <td>Appveyor</td>
     <td>
       <a href="https://ci.appveyor.com/project/nion-software/nionui-tool-feedstock/branch/master">
