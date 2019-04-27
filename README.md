@@ -14,9 +14,77 @@ Summary: A native launcher for Nion UI apps.
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/nion-software/nionui-tool-feedstock/master.svg?label=Linux)](https://circleci.com/gh/nion-software/nionui-tool-feedstock)
-[![OSX](https://img.shields.io/travis/nion-software/nionui-tool-feedstock/master.svg?label=macOS)](https://travis-ci.org/nion-software/nionui-tool-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/nion-software/nionui-tool-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/nion-software/nionui-tool-feedstock/branch/master)
+
+<table><tr>
+    <td>Appveyor</td>
+    <td>
+      <a href="https://ci.appveyor.com/project/nion-software/nionui-tool-feedstock/branch/master">
+        <img alt="windows" src="https://img.shields.io/appveyor/ci/nion-software/nionui-tool-feedstock/master.svg?label=Windows">
+      </a>
+    </td>
+  </tr>
+    
+  <tr>
+    <td>Azure</td>
+    <td>
+      <details>
+        <summary>
+          <a href="https://dev.azure.com/nion-software/feedstock-builds/_build/latest?definitionId=&branchName=master">
+            <img src="https://dev.azure.com/nion-software/feedstock-builds/_apis/build/status/nionui-tool-feedstock?branchName=master">
+          </a>
+        </summary>
+        <table>
+          <thead><tr><th>Variant</th><th>Status</th></tr></thead>
+          <tbody><tr>
+              <td>linux_python3.6</td>
+              <td>
+                <a href="https://dev.azure.com/nion-software/feedstock-builds/_build/latest?definitionId=&branchName=master">
+                  <img src="https://dev.azure.com/nion-software/feedstock-builds/_apis/build/status/nionui-tool-feedstock?branchName=master&jobName=linux&configuration=linux_python3.6" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_python3.7</td>
+              <td>
+                <a href="https://dev.azure.com/nion-software/feedstock-builds/_build/latest?definitionId=&branchName=master">
+                  <img src="https://dev.azure.com/nion-software/feedstock-builds/_apis/build/status/nionui-tool-feedstock?branchName=master&jobName=linux&configuration=linux_python3.7" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_python3.6</td>
+              <td>
+                <a href="https://dev.azure.com/nion-software/feedstock-builds/_build/latest?definitionId=&branchName=master">
+                  <img src="https://dev.azure.com/nion-software/feedstock-builds/_apis/build/status/nionui-tool-feedstock?branchName=master&jobName=osx&configuration=osx_python3.6" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_python3.7</td>
+              <td>
+                <a href="https://dev.azure.com/nion-software/feedstock-builds/_build/latest?definitionId=&branchName=master">
+                  <img src="https://dev.azure.com/nion-software/feedstock-builds/_apis/build/status/nionui-tool-feedstock?branchName=master&jobName=osx&configuration=osx_python3.7" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_python3.6</td>
+              <td>
+                <a href="https://dev.azure.com/nion-software/feedstock-builds/_build/latest?definitionId=&branchName=master">
+                  <img src="https://dev.azure.com/nion-software/feedstock-builds/_apis/build/status/nionui-tool-feedstock?branchName=master&jobName=win&configuration=win_python3.6" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_python3.7</td>
+              <td>
+                <a href="https://dev.azure.com/nion-software/feedstock-builds/_build/latest?definitionId=&branchName=master">
+                  <img src="https://dev.azure.com/nion-software/feedstock-builds/_apis/build/status/nionui-tool-feedstock?branchName=master&jobName=win&configuration=win_python3.7" alt="variant">
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </details>
+    </td>
+  </tr>
+![ppc64le disabled](https://img.shields.io/badge/ppc64le-disabled-lightgrey.svg)
+</table>
 
 Current release info
 ====================
