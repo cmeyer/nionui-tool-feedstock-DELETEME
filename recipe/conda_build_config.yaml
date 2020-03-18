@@ -2,6 +2,3 @@ channel_sources:
   - defaults
 channel_targets:
   - nion main
-build:
-  ignore_run_exports:
-    - python_abi
