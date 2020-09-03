@@ -1,5 +1,5 @@
 {% set name = "nionui-tool" %}
-{% set version = "0.4.4" %}
+{% set version = "0.4.5" %}
 
 package:
   name: {{ name|lower }}
@@ -17,7 +17,7 @@ requirements:
     - pip
     - setuptools
   run:
-    - python >=3.6
+    - python >=3.7
 
 about:
   home: http://github.com/nion-software/nionui-tool
