@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 build:
-  number: 2
+  number: 3
   skip: True  # [py2k]
   entry_points:
     - nionui-tool = nion.nionui_tool.command:main
@@ -16,6 +16,7 @@ requirements:
     - python
     - pip
     - setuptools
+    - numpy 1.14.*
   run:
     - python
 
